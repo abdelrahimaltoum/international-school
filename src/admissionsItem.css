@@ -1,0 +1,24 @@
+.admissions-item{
+    display: flex;
+    flex-direction: column;
+    width: 215px;
+    height: 384px;
+  
+    }
+    .admissions-item img{
+        width: 185px;
+        height: 208px;
+     
+    }
+    .admissions-item h2{
+        color: #01A074;
+        width: 187px;
+        height: 34px;
+        
+    }
+    .admissions-item p{
+        font-size: 22px;
+        width: 185px;
+        height: 114px;
+        
+    }

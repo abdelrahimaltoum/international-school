@@ -1,0 +1,17 @@
+.for-parents-news{
+display: flex;
+flex-direction: column;
+width: 185px;
+height: 375px;
+}
+.for-parents-news img{
+    width: 185px;
+    height: 151px;
+}
+.for-parents-news h2{
+    color: #01A074;
+}
+.for-parents-news p{
+    font-size: 22px;
+    color: #444444;
+}

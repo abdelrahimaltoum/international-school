@@ -1,0 +1,44 @@
+.Why-GISC-page{
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.Why-GISC-page-upper{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.Why-GISC-page-upper h4{
+    color: #0033A1;
+    font-size: 27px;
+    height: 40px;
+}
+.Why-GISC-page-upper h2{
+    height: 63px;
+    color: #002856;
+    font-size: 52px;
+  
+}
+.Why-GISC-page-upper h3{
+    height: 45px;
+    color: #12336D;
+    font-size: 37px;
+   
+}
+.Why-GISC-page-upper p {
+    height: 116px;
+    color: #444444;
+    font-size: 20px;
+}
+.Why-GISC-page-lower{
+    display: flex;
+    flex-direction: column;
+}
+.Why-GISC-page-lower-row{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    justify-content: none;
+}

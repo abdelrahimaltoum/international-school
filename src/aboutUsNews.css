@@ -1,0 +1,19 @@
+.about-us-news-elment{
+    display: flex;
+    flex-direction: column;
+    width: 215px;
+    height: 450px;
+    margin-left:20px;
+
+}
+.about-us-news-elment img{
+    width: 185px;
+    height: 208px;
+}
+.about-us-news-elment p {
+    font-size: 19px;
+}
+.about-us-news-elment h3{
+    color: #01A079;
+    font-size: 22px;
+}

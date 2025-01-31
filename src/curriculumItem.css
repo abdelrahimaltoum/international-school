@@ -1,0 +1,23 @@
+.curriculum-item{
+    display: flex;
+    flex-direction: column;
+    width: 294px;
+    height: 544px;
+}
+.curriculum-item img{
+    width: 264px;
+    height: 298px;
+}
+.curriculum-item h2{
+ font-size: 24px;
+ color: #01A074;
+ width: 133px;
+ height: 34px;
+
+}
+.curriculum-item p {
+ font-size: 19px;
+ color: #444444;
+ width: 264px;
+ height: 85px;
+}

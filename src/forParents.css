@@ -1,0 +1,38 @@
+.for-parents{
+border: 1px solid black;
+}
+      
+
+.for-parents-upper{
+    display: flex;
+    flex-direction: column;
+ margin-left: 150px;
+ align-items: center;
+ 
+ margin-right: 100px;
+ margin-bottom: 30px;
+    
+}
+.for-parents-upper h2{
+    width: 785px;
+    height: 63px;
+    color: #002856;
+    font-size: 45px;
+    text-align: center;
+}
+.for-parents-upper p{
+    font-size: 22px;
+}
+.for-parents-lower{
+    display: flex;
+ justify-content: space-between;
+  flex-direction: column;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding: 30px;
+}
+.for-parents-news-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

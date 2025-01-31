@@ -1,0 +1,28 @@
+.why-GISC-page-item{
+    display: flex;
+    flex-direction: column;
+    width: 275px;
+    height: 564px;
+    margin-right: 10px;
+    margin-left: 10px;
+    flex:1;
+}
+.why-GISC-page-item img{
+    width: 230px;
+    height: 298px;
+    flex: 0.4;
+}
+.why-GISC-page-item h2{
+    color: #01A074;
+    font-size: 26px;
+    width: 175px;
+    height: 34px;
+    flex: 0.2;
+}
+.why-GISC-page-item p {
+width: 258px;
+height: 201px;
+color: #333333;
+font-size: 19px;
+flex: 0.4;
+}

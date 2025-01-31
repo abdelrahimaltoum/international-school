@@ -1,0 +1,12 @@
+.activites{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center;
+}
+.activites-row{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}

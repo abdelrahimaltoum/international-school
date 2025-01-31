@@ -1,0 +1,38 @@
+.next-steps{
+    display: flex;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.next-steps h2{
+    color: #12336D;
+    font-size: 40px;
+}
+.next-steps-items{
+    display: flex;
+    flex-direction: row;
+}
+.next-steps-item{
+    background-color: #12336D;
+    color: white;
+    width: 390px;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    align-items: center;
+    margin-left: 15px;
+    text-align: center;
+}
+.next-steps-item img{
+ 
+    width: 55px;
+    height: 30px;
+    margin-left: 110px;
+}
+.next-steps-item:hover{
+    cursor: pointer;
+}

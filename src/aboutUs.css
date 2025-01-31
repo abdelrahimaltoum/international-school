@@ -1,0 +1,39 @@
+.about-us{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items:center ;
+
+}
+.about-us-upper{
+    display: flex;
+    flex-direction: column;
+    flex: 0.4;
+    width: 785px;
+    height: 485px;
+    align-items: center;
+}
+.about-us-upper h3{
+    color: #0033A1;
+    font-size: 30px;
+}
+.about-us-upper h2 {
+    color: #002856;
+    font-size: 56px;
+}
+.about-us-upper p {
+    width: 785px;
+    height: 194px;
+    font-size: 20px;
+    margin-left: 22px;
+}
+.about-us-news{
+    display: flex;
+    flex-direction: column;
+    flex: 0.6;
+}
+.about-us-news-row{
+    display: flex;
+    flex-direction: row;
+    
+}
