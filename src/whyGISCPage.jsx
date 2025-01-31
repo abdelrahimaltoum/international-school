@@ -1,4 +1,4 @@
-import "./whyGISCPage.css";
+import "./WhyGISCPage.css";
 import WhyGISCPageItem from './whyGISCPageItem';
 function WhyGISCPage(){
 
