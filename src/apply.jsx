@@ -7,7 +7,7 @@ function Apply(){
         <div className="apply">
             <div className="apply-upper">
                 <div className="apply-upper-left">
-              <Link to="/">      <img src="https://gis-cairo.net/wp-content/uploads/2023/12/GISC2.png"/></Link>
+              <Link to="/"> <img src="https://gis-cairo.net/wp-content/uploads/2023/12/GISC2.png"/></Link>
                 </div>
                
                 <div className="apply-upper-right">
