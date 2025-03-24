@@ -15,6 +15,13 @@ import Admissions from './admissions';
 import Curriculum from './curriculum';
 import WhyGISCPage from './whyGISCPage';
 import Apply from './apply';
+import RelatedPages from './relatedPages';
+import OurSchool from './ourSchool';
+import OurTeam from './ourTeam';
+import Campus from './campus';
+import Health from './health';
+import HeadMessage from './headMessage';
+import HowToApply from './howToApply';
 function App() {
   return (
    
@@ -31,6 +38,7 @@ function App() {
               <WhyGISC/>
               <NextSteps/>
               <Footer/>
+              
            
               </>
               } />
@@ -38,9 +46,10 @@ function App() {
       <Route path="/about" element={<>
              <Header/>
               <AboutUs/>
-              <NextSteps/>
+           <RelatedPages/> 
+               <NextSteps/>
               <Footer/>
-           
+         
               </>
               } />
               <Route path="/apply" element={<>
@@ -76,6 +85,54 @@ function App() {
               <>
               <Header />
              <Curriculum/>
+          <NextSteps/>
+          <Footer/>
+           </> } />
+           <Route path="/our-school" element={
+              <>
+              <Header />
+             <OurSchool/>
+             <RelatedPages/>
+          <NextSteps/>
+          <Footer/>
+           </> } />
+           <Route path="/message-from-the-head" element={
+              <>
+              <Header />
+             <HeadMessage/>
+             <RelatedPages/>
+          <NextSteps/>
+          <Footer/>
+           </> } />
+           <Route path="/our-team" element={
+              <>
+              <Header />
+             <OurTeam/>
+             
+          <NextSteps/>
+          <Footer/>
+           </> } />
+           <Route path="/campus-and-location" element={
+              <>
+              <Header />
+             <Campus/>
+             <RelatedPages/>
+          <NextSteps/>
+          <Footer/>
+           </> } />
+           <Route path="/health-and-safety" element={
+              <>
+              <Header />
+             <Health/>
+             <RelatedPages/>
+          <NextSteps/>
+          <Footer/>
+           </> } />
+           <Route path="/how-to-apply" element={
+              <>
+              <Header />
+             <HowToApply/>
+             <RelatedPages/>
           <NextSteps/>
           <Footer/>
            </> } />

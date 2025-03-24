@@ -1,0 +1,42 @@
+.head-message{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 80px;
+}
+.head-message-intro{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+.head-message-intro-left{
+    flex: 0.5;
+    margin-right: 20px;
+}
+.head-message-intro-left h2{
+    font-size: 52px;
+    text-align: start;
+}
+.head-message-intro-left h3{
+    color: #12336D;
+    font-size: 30px;
+}
+.head-message p {
+    font-size: 22px;
+    color: #444444;
+    text-align: start;
+    font-weight: 500;
+}
+
+.head-message-intro-right{
+    flex: 0.5;
+}
+.head-message-intro-right img{
+    width: 466px;
+    height: 526px;
+    margin-top: 50px;
+}
+.head-message span{
+    font-size: 24px;
+    font-weight: bold;
+    font-weight: 700;
+}

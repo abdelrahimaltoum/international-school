@@ -1,5 +1,6 @@
 import { Call, Email, Facebook, Home, Instagram, Message, YouTube } from "@mui/icons-material";
 import "./footer.css";
+import { Link } from "react-router-dom";
 
 
 function Footer(){
@@ -15,13 +16,11 @@ function Footer(){
             </div>
             <div className="footer-colomn">
                 <h3>About us</h3>
-               <a> Our School</a>
-               <a>Welcome Message from the Principal</a>
-               <a>Our Team</a>
-               <a>Campus Location</a>
-               <a>Health and Safety</a>
-               <a>Vacancies</a>
-               <a>The GEMS Difference</a>
+               <Link to="/our-school"> Our School</Link>
+               <Link to="/message-from-the-head">Welcome Message from the Principal</Link>
+               <Link to="/our-team">Our Team</Link>
+               <Link to="/campus-and-location">Campus and Location</Link>
+               <Link to="/health-and-safety">Health and Safety</Link>
             </div>
             <div className="footer-colomn">
                 <h3>Why GISC?</h3>
@@ -33,7 +32,7 @@ function Footer(){
             </div>
             <div className="footer-colomn">
             <h3>Admissions</h3>
-                <a>How to apply</a>
+                <Link to="/how-to-apply">How to apply</Link>
                 <a>Tuition fees</a>
                 <a>online payment</a>
                 <a>contact us</a>

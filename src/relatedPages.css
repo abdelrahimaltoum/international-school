@@ -1,0 +1,16 @@
+.related-pages{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.related-pages h3{
+    color: #002856;
+    font-size: 40px;
+    
+}
+.related-pages-row{
+    display: flex;
+    flex-direction: row;
+   
+}

@@ -1,0 +1,39 @@
+.how-to-apply{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 50px;
+}
+.how-to-apply-upper{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+.how-to-apply-left{
+    flex: 0.5;
+    margin-right: 80px;
+}
+.how-to-apply-left h4{
+    color: #12336D;
+    font-size: 25px;
+}
+.how-to-apply h3{
+    color: #12336D;
+    font-size: 37px;
+}
+.how-to-apply-right{
+    flex: 0.5;
+}
+.how-to-apply-right img{
+    width: 420px;
+    height: 526px;
+    margin-top: 50px;
+}
+.how-to-apply span{
+    font-size: 32px;
+    color: #817365;
+}
+.how-to-apply p , .how-to-apply li{
+    font-size: 22px;
+    color: #333333;
+    font-weight: 500;
+}

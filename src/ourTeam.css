@@ -1,0 +1,20 @@
+.our-team{
+   margin-left: 80px;
+   margin-right: 100px;
+  
+}
+.our-team p {
+    font-size: 22px;
+    color: #444444;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.GISC-team{
+    display: flex;
+    flex-direction: column;
+}
+.team-row{
+    display: flex;
+    flex-direction: row;
+    
+}
