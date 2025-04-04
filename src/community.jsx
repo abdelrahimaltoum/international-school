@@ -1,4 +1,4 @@
-import "./Community.css";
+import ".community.css";
 
 function Community(){
     return(
