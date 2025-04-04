@@ -22,6 +22,20 @@ import Campus from './campus';
 import Health from './health';
 import HeadMessage from './headMessage';
 import HowToApply from './howToApply';
+import OnlinePayment from './onlinePayment';
+import ContactUs from './contactUs';
+import EducationalExperts from './educationalExperts';
+import Community from './community';
+import ExellenceAtGISC from './exellenceAtGISC';
+import Environment from './enviroment';
+import Accreditations from './accreditations';
+import FutureTechnology from './futureTechnology';
+import Vision from './vision';
+import OurValues from './ourValues';
+import GEMdiffernce from './GEMdifference';
+import Vacancies from './vacancies';
+import AgeGuide from './ageGuide';
+import Transport from './transport';
 function App() {
   return (
    
@@ -38,7 +52,7 @@ function App() {
               <WhyGISC/>
               <NextSteps/>
               <Footer/>
-              
+             
            
               </>
               } />
@@ -136,7 +150,122 @@ function App() {
           <NextSteps/>
           <Footer/>
            </> } />
-             
+           <Route path="/online-payment" element={
+              <>
+              <Header />
+             <OnlinePayment/>
+             <RelatedPages/>
+          <NextSteps/>
+          <Footer/>
+           </> } />
+
+              <Route path="/contact-us" element={
+              <>
+              <Header />
+             <ContactUs/>
+             <RelatedPages/>
+          <NextSteps/>
+          <Footer/>
+           </> } />
+           <Route path="/educational-experts" element={
+              <>
+              <Header />
+             <EducationalExperts/>
+             <RelatedPages/>
+          <NextSteps/>
+          <Footer/>
+           </> } />
+           <Route path="/a-value-driven-community" element={
+              <>
+              <Header />
+             <Community/>
+             <RelatedPages/>
+          <NextSteps/>
+          <Footer/>
+           </> } />
+           <Route path="/excellence-at-GISC" element={
+              <>
+              <Header />
+             <ExellenceAtGISC/>
+             <RelatedPages/>
+          <NextSteps/>
+          <Footer/>
+           </> } />
+           <Route path="/enabling-learning-enviroment" element={
+              <>
+              <Header />
+             <Environment/>
+             <RelatedPages/>
+          <NextSteps/>
+          <Footer/>
+           </> } />
+           <Route path="/accreditations" element={
+              <>
+              <Header />
+             <Accreditations/>
+             <RelatedPages/>
+          <NextSteps/>
+          <Footer/>
+           </> } />
+           <Route path="/Technology-for-the-Future" element={
+              <>
+              <Header />
+             <FutureTechnology/>
+             <RelatedPages/>
+          <NextSteps/>
+          <Footer/>
+           </> } />
+           <Route path="/vision-and-mission" element={
+              <>
+              <Header />
+             <Vision/>
+             <RelatedPages/>
+          <NextSteps/>
+          <Footer/>
+           </> } />
+           
+           <Route path="/our-core-values" element={
+              <>
+              <Header />
+             <OurValues/>
+             <RelatedPages/>
+          <NextSteps/>
+          <Footer/>
+           </> } />
+         
+           <Route path="/The-GEMS-Difference" element={
+              <>
+              <Header />
+             <GEMdiffernce/>
+             <RelatedPages/>
+          <NextSteps/>
+          <Footer/>
+           </> } />
+           <Route path="/Vacancies" element={
+              <>
+              <Header />
+             <Vacancies/>
+             <RelatedPages/>
+          <NextSteps/>
+          <Footer/>
+           </> } />
+           <Route path="/age-replacement-guide" element={
+              <>
+              <Header />
+             <AgeGuide/>
+            
+          <NextSteps/>
+          <Footer/>
+           </> } />
+           <Route path="/School-transport" element={
+              <>
+              <Header />
+             <Transport/>
+            
+          <NextSteps/>
+          <Footer/>
+           </> } />
+           
            </Routes>
         
        </Router>

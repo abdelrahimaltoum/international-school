@@ -1,0 +1,37 @@
+.online-payment{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 50px;
+}
+.online-payment h2{
+    color: #2791E1;
+    font-size: 52px;
+    text-align: start;
+}
+.online-payment h4{
+    color: #12336D;
+    font-size: 27px;
+}
+.online-payment h3{
+    font-size: 37px;
+    color: #12336D;
+}
+.online-payment p {
+    font-size: 19px;
+    color: #333333;
+}
+.online-payment-step span {
+    color: #817365;
+    font-size: 37px;
+}
+.online-payment-step{
+    margin-bottom: 50px;
+}
+.online-payment-info span{
+    font-size: 19px;
+    color: #333333;
+    font-weight: bold;
+}
+.online-payment-info li{
+    font-size: 19px;
+}

@@ -36,8 +36,9 @@ padding: 20px;
 .footer span{
     display: flex;
     flex-direction: row;
-    align-items: center;
     font-size: 18px;
+    justify-content: space-between;
+    font-weight: normal;
    
 }
 .footer a, .footer a:visited, .footer a:hover,.footer a:active {

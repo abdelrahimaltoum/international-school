@@ -1,0 +1,47 @@
+.exellence-at-GISC{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 50px;
+
+}
+.exellence-at-GISC-upper{
+    display: flex;
+    flex-direction: row;
+flex:1
+}
+.exellence-at-GISC-upper-left{
+    flex: 0.5;
+    margin-right: 50px;
+}
+.exellence-at-GISC-upper-left h2{
+    color: #2791E1;
+    font-size: 52px;
+    text-align: start;
+
+}
+.exellence-at-GISC-upper-left h3{
+    color: #12336D;
+    font-size: 37px;
+
+}
+.exellence-at-GISC-upper-left span{
+    color: #817365;
+    font-size: 27px;
+
+}
+.exellence-at-GISC p {
+    font-size: 22px;
+    color: #333333;
+
+}
+.exellence-at-GISC-upper-right{
+    flex: 0.5;
+}
+.exellence-at-GISC-upper-right img{
+    width: 466px ;
+    height: 526px;
+    margin-top: 50px;
+
+}

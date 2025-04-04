@@ -43,6 +43,11 @@ Swimming Pools<br/><br/>
                 <img src="https://www.gis-cairo.com/-/media/project/gems/gisc_gems_international_school_cairo/_files-and-documents/facilities/library.jpg"/>
             </div>
             </div>
+            <div className="location">
+            <h2>Our Location</h2>
+          
+            <img src="https://i0.wp.com/www.cssscript.com/wp-content/uploads/2018/03/Simple-Location-Picker.png?fit=561%2C421&ssl=1"/>
+              </div>
        
     </div>
     )

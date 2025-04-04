@@ -6,10 +6,10 @@ border: 1px solid black;
 .for-parents-upper{
     display: flex;
     flex-direction: column;
- margin-left: 150px;
+ margin-left: 180px;
  align-items: center;
  
- margin-right: 100px;
+ margin-right: 180px;
  margin-bottom: 30px;
     
 }

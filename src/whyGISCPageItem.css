@@ -1,28 +1,36 @@
 .why-GISC-page-item{
     display: flex;
     flex-direction: column;
-    width: 275px;
+    width: 230px;
     height: 564px;
     margin-right: 10px;
     margin-left: 10px;
-    flex:1;
+    margin-right: 20px;
+    position: relative;
+overflow: hidden;
+
 }
+
+
+
 .why-GISC-page-item img{
     width: 230px;
     height: 298px;
-    flex: 0.4;
+    object-fit: cover; /* Ensures image maintains its aspect ratio */
+transition: transform 0.3s ease /* Smooth transition */
+}
+.why-GISC-page-item img:hover {
+transform: scale(1.04); /* Zoom into the image */
+transform-origin: center center;
 }
 .why-GISC-page-item h2{
     color: #3F4381;
     font-size: 26px;
     width: 175px;
     height: 34px;
-    flex: 0.2;
 }
 .why-GISC-page-item p {
-width: 258px;
 height: 201px;
 color: #333333;
 font-size: 19px;
-flex: 0.4;
 }

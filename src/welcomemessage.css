@@ -5,8 +5,10 @@
     flex: 1;
     background-color: #EAE3DC;
     width: 100%;
-    height: 130vh;
-    margin-top: 200px;
+    margin-top: 150px;
+    height: 140vh;
+    padding-left: 20px;
+    padding-right: 20px;
 
 }
 .welcome-message-left{
@@ -24,17 +26,22 @@
     margin-top: 60px;
 }
 .welcome-message-right img{
-    width: 350px;
-    height: 500px;
+    width: 400px;
+    height: 550px;
+    margin-top: 30px;
 }
-.welcome-h3{
+.welcome-message-left h2{
     color: #005480;
     font-size: 35px;
     margin-bottom: 20px;
 }
-.head-h3{
+.welcome-message-left h3{
     color: #2791E1;
     font-size: 35px;
+}
+.welcome-message-left span{
+    font-size: 22px;
+    font-weight: bolder;
 }
 .welcome-message-left p {
     font-size: 24px;
@@ -44,6 +51,7 @@
     width: 192px !important;
     border-radius: 25px !important;
     background-color: #892282 !important;
+    margin-top: 20px !important;
 }
 .welcome-message-left button:hover{
     cursor: pointer;

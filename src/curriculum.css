@@ -13,7 +13,7 @@
 .curriculum-lower{
     display: flex;
     flex-direction: row;
-    
+    margin-top: 30px;
 }
 .curriculum-upper h2{
     color: #3F4381;

@@ -1,0 +1,61 @@
+.GEM-difference{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+}
+.GEM-difference h2 {
+    color: #2791E1;
+    font-size: 52px;
+    text-align: center;
+
+}
+.GEM-difference img {
+    width: 900px;
+    height: 440px;
+    margin-bottom: 20px;
+}
+.GEM-difference p {
+    color: #444444;
+    font-size: 22px;
+    
+    margin-bottom: 20px;
+}
+.GEM-difference span {
+    font-weight: bold;
+    text-align: center;
+}
+.GEM-legacy{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin-bottom: 15px;
+    margin-right: 50px;
+    background-color: #EAE3DC;
+    height: 700px;
+    width: 1000px;
+}
+.GEM-legacy-left{
+    flex: 0.6;
+    margin-right: 50px;
+    padding-left: 30px;
+}
+.GEM-legacy-right{
+    flex: 0.4;
+    padding: 0px 15px;
+}
+.GEM-legacy-right img{
+    width: 350px;
+    height: 400px;
+    margin-top: 60px;
+}
+.GEM-legacy button{
+    width: 346px !important;
+    height: 54px !important;
+    color: white !important;
+    background-color: #892282;
+    border: 3px !important;
+    display: block !important;
+    margin-top: 50px !important;
+    margin-bottom: 30px !important;
+}

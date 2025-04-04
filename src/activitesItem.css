@@ -1,11 +1,19 @@
 .activites-item{
     width:400px;
     height: 350px;
-    background-color: #f5eded;
-    margin-left: 30px;
+    background-color: #f6efe8;
+    margin-left: 50px;
+    margin-bottom: 20px;
+  
 }
 .activites-item:hover{
     cursor: pointer;
+}
+.activites-item h3 {
+    color: #12336D;
+    padding-left: 10px;
+    font-size: 19px;
+
 }
 .activites-item img{
     width: 400px;
@@ -13,6 +21,7 @@
 }
 .activites-item p {
     font-size: 16px;
+    padding-left: 12px;
 }
 .activites-item span {
     display: flex;

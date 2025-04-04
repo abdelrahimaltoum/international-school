@@ -14,3 +14,9 @@
     flex-direction: row;
    
 }
+
+a, a:visited, a:hover, a:active {
+    text-decoration:none;
+    color: black;
+
+}

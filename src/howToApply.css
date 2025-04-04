@@ -12,6 +12,11 @@
     flex: 0.5;
     margin-right: 80px;
 }
+.how-to-apply-left h2 {
+    font-size: 52px;
+    color: #2791E1;
+    text-align: start;
+}
 .how-to-apply-left h4{
     color: #12336D;
     font-size: 25px;

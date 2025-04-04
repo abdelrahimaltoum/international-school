@@ -1,4 +1,4 @@
-import { ArrowRightAltTwoTone } from "@mui/icons-material";
+import { ArrowCircleRightOutlined, ArrowCircleRightRounded, ArrowRightAltTwoTone, ArrowRightRounded, KeyboardArrowRight, KeyboardArrowRightOutlined, KeyboardArrowRightRounded } from "@mui/icons-material";
 import "./activitesItem.css";
 
 function ActivitesItem({image , name , info}){
@@ -6,7 +6,7 @@ function ActivitesItem({image , name , info}){
         <div className="activites-item">
             <img src={image}/>
             <h3>{name}</h3>
-          <span>  <p>{info}</p> <ArrowRightAltTwoTone/></span>
+          <span>  <p>{info}</p> <ArrowCircleRightOutlined/></span>
         </div>
     )
 }

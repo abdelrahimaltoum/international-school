@@ -1,0 +1,31 @@
+.educational-Experts{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 50px;
+    flex: 1;
+}
+.educational-Experts-left{
+    flex: 0.6;
+    margin-right: 50px;
+}
+.educational-Experts-left h2 {
+    color: #2791E1;
+    font-size: 52px;
+    text-align: start;
+
+}
+.educational-Experts-left p{
+color: #333333;
+font-size: 22px;
+}
+.educational-Experts-right{
+    flex: 0.4;
+}
+.educational-Experts-right img{
+    width: 466px;
+    height: 526px;
+    margin-top: 50px;
+
+}

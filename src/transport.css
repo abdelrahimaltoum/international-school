@@ -1,0 +1,36 @@
+.transport{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.transport-upper{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+.transport-upper-left{
+flex: 0.5;
+margin-right: 50px;
+}
+.transport-upper-left h2 {
+    color: #2791E1;
+    font-size: 52px;
+    text-align: start;
+}
+.transport-upper-left h3 {
+    color: #0033A1;
+    font-size: 37px;
+}
+.transport-upper-right{
+    flex: 0.5;
+}
+.transport-upper-right img {
+width: 466px;
+height: 480px;
+margin-top: 50px;
+}
+.transport p {
+    color: #333333;
+    font-size: 24px;
+}

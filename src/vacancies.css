@@ -1,0 +1,45 @@
+.vacancies{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.vacancies-upper{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+
+}
+.vacancies-upper-left{
+    flex: 0.5;
+    margin-right: 50px;
+}
+.vacancies-upper-left h2{
+    color: #2791E1;
+    font-size: 52px;
+    text-align: start;
+}
+.vacancies-upper-left h3 {
+    color: #2D9ED8;
+    font-size: 26px;
+}
+.vacancies span {
+    font-weight: bold;
+    font-size: 22px;
+}
+.vacancies p {
+    font-size: 22px;
+    color: #333333;
+}
+.vacancies-upper-right{
+    flex: 0.5;
+}
+.vacancies-upper-right img {
+    width: 466px;
+    height: 526px;
+    margin-top: 50px;
+}
+.vacancies li {
+    margin-bottom: 25px;
+    font-size: 22px
+}

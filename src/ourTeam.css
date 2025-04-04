@@ -3,11 +3,16 @@
    margin-right: 100px;
   
 }
+.our-team h2 {
+    color: #002856;
+    font-size: 52px;
+    text-align: center;
+}
 .our-team p {
     font-size: 22px;
     color: #444444;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 .GISC-team{
     display: flex;

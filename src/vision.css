@@ -1,0 +1,45 @@
+.vision {
+    
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.vision-upper{
+    display: flex;
+    flex-direction: row;
+}
+.vision-upper-left{
+    flex: 0.5;
+    margin-right: 50px;
+}
+.vision-upper-left h2{
+    color: #2791E1;
+    font-size: 52px;
+    text-align: start;
+}
+.vision span{
+    color: #817365;
+    font-size: 40px;
+    font-weight: bold;
+}
+.vision p {
+    color: #333333;
+    font-size: 22px;
+}
+.vision-upper-right{
+    flex: 0.5;
+}
+.vision-upper-right img {
+    width: 466px;
+    height: 500px;
+    margin-top: 50px;
+}
+.vision-lower{
+    display: flex;
+    flex-direction: column;
+
+}
+.vision-lower img {
+    width: 888px;
+    height: 221px;
+    margin-top: 30px;
+}

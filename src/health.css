@@ -6,6 +6,11 @@
 .health-upper{
     align-items: center;
 }
+.health-upper h2 {
+    font-size: 52px;
+    color: #2791E1;
+    text-align: center;
+}
 .health-upper p {
     text-align: center;
     margin-left: 10%;

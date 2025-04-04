@@ -1,4 +1,4 @@
-import { Call, Email, Facebook, Home, Instagram, Message, YouTube } from "@mui/icons-material";
+import {  CallOutlined, EmailOutlined, Facebook, Instagram, LocationOnOutlined, YouTube } from "@mui/icons-material";
 import "./footer.css";
 import { Link } from "react-router-dom";
 
@@ -21,31 +21,35 @@ function Footer(){
                <Link to="/our-team">Our Team</Link>
                <Link to="/campus-and-location">Campus and Location</Link>
                <Link to="/health-and-safety">Health and Safety</Link>
+               <Link to="/vacancies">Vacancies</Link>
+               <Link to="/The-GEMS-Difference">The GEM Diffrenece</Link>
+             
             </div>
             <div className="footer-colomn">
                 <h3>Why GISC?</h3>
-                <a>Enabling Learning Environment</a>
-                <a>Accreditations</a>
-                <a>Technology for the Future</a>
-                <a>A Values-Driven Community</a>
-                <a>Excellence at GISC</a>
+                <Link to="/Enabling-learning-enviroment">Enabling Learning Environment</Link>
+                <Link to="/accreditations">Accreditations</Link>
+                <Link to="/educational-experts">Educational Experts</Link>
+                <Link to="/a-value-driven-community">A Values-Driven Community</Link>
+               <Link to="/Technology-for-the-Future">Technology for the future</Link> 
+                 <Link to="/excellence-at-GISC">Excellence at GISC</Link>
             </div>
             <div className="footer-colomn">
             <h3>Admissions</h3>
                 <Link to="/how-to-apply">How to apply</Link>
-                <a>Tuition fees</a>
-                <a>online payment</a>
-                <a>contact us</a>
+                <Link to="/online-payment">online payment</Link>
+                <Link to="/contact-us">contact us</Link>
             </div>
             <div className="footer-colomn">
                 <h3>GEMS International School Cairo</h3>
                
-         <span>      <Home/> <a>Al Rehab Extension, Zone 8, New Cairo, Egypt</a></span>
+     <Link to="/campus-and-location" >  <span><LocationOnOutlined/> Al Rehab Extension, Zone 8, New Cairo, Egypt</span></Link> 
 
 
-<span><Email/><a>registrar_gic@gemsedu.com</a></span>
+<Link to="/contact-us"><span><EmailOutlined/>registrar_gic@gemsedu.com</span></Link>
 
-<span><Call/><a>+002 01061618302 or +002 01061618103</a></span>
+
+<Link to="/">      <span><CallOutlined/>+002 01061618302 or +002 01061618103</span> </Link>
             </div>
            
 

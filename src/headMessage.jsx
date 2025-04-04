@@ -10,7 +10,7 @@ function HeadMessage(){
         <p>
         Dear GISC families,<br/><br/>
 
-There is a remarkable positive energy in the air as we open Year 3 of GEMS International School Cairo! Over 100 teachers and education leaders, 40 teacher assistants, and an additional 100 support staff are ready and excited to serve our ever-growing student enrollment of 940 students in PreK through Grade 10.<br/><br/>
+There is a remarkable positive energy in the air as we open Year 3 of GEMS International School Cairo! Over 100 teachers and education leaders, 40 teacher assistants, and an additional 100 support staff are ready and excited to serve our ever-growing student enrollment of 940 students in PreK through Grade 10.<br/>
         </p>
         </div>
         <div className="head-message-intro-right">
@@ -18,14 +18,14 @@ There is a remarkable positive energy in the air as we open Year 3 of GEMS Inter
         </div>
             </div>
             <p>
-            As the international and IB school of choice in New Cairo, we continue to attract a diverse and inclusive community of staff and families. Our educators represent 14 different nationalities (Azerbaijan, Byelorussia, Canada, Cuba, Egypt, France, Germany, Hungary, Morocco, the Philippines, South Africa, Sudan, United Kingdom, United States) and their teaching and leadership experience spans the world from Indonesia to England, Mexico to Bahrain, China to Canada, KSA to the US, and most points in between!<br/><br/>
+            As the international and IB school of choice in New Cairo, we continue to attract a diverse and inclusive community of staff and families. Our educators represent 14 different nationalities (Azerbaijan, Byelorussia, Canada, Cuba, Egypt, France, Germany, Hungary, Morocco, the Philippines, South Africa, Sudan, United Kingdom, United States) and their teaching and leadership experience spans the world from Indonesia to England, Mexico to Bahrain, China to Canada, KSA to the US, and most points in between!<br/>
             </p>
-            <p>Our students and families represent 38 countries!</p><br/>
+            <p>Our students and families represent 38 countries!</p>
             <p>
-            Armenia, Australia, Austria, Belgium, Brazil, Canada, China, Cuba, Dominica, Dominican Republic, Egypt, El Salvador, Indonesia, Italy, Jordan, Keny, Kuwait, Lebanon, Libya, Morocco, The Netherlands, Nigeria, Northern Mariana Islands, Norway, Pakistan, Palestine, Russia, Saint Martin (French Part), Saudi Arabia, Sint Maarten (Dutch Part), Sudan, Sweden, Syria, Tunisia, Turkey, Ukraine, United Kingdom and the United States.<br/><br/>
+            Armenia, Australia, Austria, Belgium, Brazil, Canada, China, Cuba, Dominica, Dominican Republic, Egypt, El Salvador, Indonesia, Italy, Jordan, Keny, Kuwait, Lebanon, Libya, Morocco, The Netherlands, Nigeria, Northern Mariana Islands, Norway, Pakistan, Palestine, Russia, Saint Martin (French Part), Saudi Arabia, Sint Maarten (Dutch Part), Sudan, Sweden, Syria, Tunisia, Turkey, Ukraine, United Kingdom and the United States.<br/>
             </p>
-            <p>International Day will certainly be bigger and better than ever this coming year!</p><br/><br/>
-            <span>GISC Staff</span><br/><br/>
+            <p>International Day will certainly be bigger and better than ever this coming year!</p><br/>
+            <span>GISC Staff</span><br/>
             <p>
             Please note that we also have some important new faces among our support staff with whom you will likely interact throughout the year:<br/><br/>
 

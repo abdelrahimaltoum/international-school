@@ -1,0 +1,43 @@
+.future-technology{
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.future-technology-upper{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+
+}
+.future-technology-upper-left{
+    flex: 0.5;
+    margin-right: 50px;
+}
+.future-technology-upper-left h2{
+    color: #2791E1;
+    font-size: 52px;
+    text-align: start;
+}
+.future-technology-upper-right{
+    flex: 0.5;
+}
+.future-technology-upper-right img {
+    width: 466px;
+    width: 526px;
+    margin-top: 50px;
+}
+.future-technology span {
+    color: #817365;
+    font-size: 27px;
+    font-weight: bold;
+}
+.future-technology p {
+    font-size: 22px;
+    color: #333333;
+}
+.future-technology-lower h4 {
+color: #2D9ED8;
+font-size: 24px;
+}
